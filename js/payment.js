@@ -32,7 +32,7 @@ function payment() {
 
   check();
   paymentArr = [];
-//   document.querySelector("form").reset();
+  document.querySelector("form").reset();
   console.log(paymentArr);
 }
 
@@ -45,5 +45,5 @@ function check() {
 }
 
 function cartpage() {
-  window.location.pathname = "cart.html";
+  window.location.href = "cart.html";
 }
