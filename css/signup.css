@@ -1,0 +1,55 @@
+
+#container1, #container2{
+    display: flex;
+    border: 1px solid red;
+    margin: auto;
+}
+#container1 > div, #container2 > div{
+    /* border: 1px solid green; */
+    width: 500px;
+
+}
+#box{
+    border: 1px solid rebeccapurple;
+    width: 15px;
+    height: 15px;
+
+}
+div>input{
+    width: 80%;
+}
+input{
+    width: 40%;
+    font-style: italic;
+    padding: 10px;
+    margin: 5px 0px;  
+}
+form>input:nth-child(4){
+    border: 1px solid green;
+    margin-left: 0px;
+
+}
+
+form>input:nth-child(15){
+    font-style: normal;
+    width: 50%;
+    border-radius: 25px;
+    background-color: rgba(16, 3, 96, 0.611);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+#button{
+    background-color: hsl(235,23%,33%);
+    color: white;
+    font-size: larger;
+    font-style: normal;
+    border-radius: 50px;
+    width: 60%;
+    border: none;
+
+}
+a{
+    text-decoration: none;
+}
