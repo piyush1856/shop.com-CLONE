@@ -50,7 +50,7 @@
 //     }
 //   ];
 
-let DataLs = JSON.parse(localStorage.getItem("product")) || [];
+let DataLs = JSON.parse(localStorage.getItem("single_product")) || [];
 
 if (DataLs.length == 0 || DataLs == null) {
   document.querySelector("body").innerHTML = "";
@@ -250,7 +250,7 @@ if (DataLs.length == 0 || DataLs == null) {
 function del(el, index) {
   DataLs.splice(index, 1);
 
-  localStorage.setItem("product", JSON.stringify(DataLs));
+  localStorage.setItem("single_product", JSON.stringify(DataLs));
   window.location.reload();
 }
 
@@ -288,5 +288,5 @@ function updateCartTotal() {
 // Redirect to Payment page
 function paymentpage(){
 
-  window.location.pathname="/Payment page/Paymentpage.html"
+  window.location.href="Paymentpage.html"
 }
