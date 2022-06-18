@@ -1,7 +1,7 @@
 
 let single_product = JSON.parse(localStorage.getItem('single_product'));
 let userdata = JSON.parse(localStorage.getItem('userdata'));
-let addedcart =  []
+let addedcart = JSON.parse(localStorage.getItem('addedcart')) || []
 console.log(single_product)
 let container = document.createElement('div');
 container.setAttribute('id','container');
