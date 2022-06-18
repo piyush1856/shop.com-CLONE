@@ -1,0 +1,232 @@
+#mainContainer {
+  display: flex;
+  /* border:1px solid grey; */
+  justify-content: space-between;
+}
+#heading > h2 {
+  font-family: "Roboto", sans-serif;
+}
+.NoItemCart > h2,
+p {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 70%;
+  /* border: 1px solid red; */
+}
+
+.shipmentDiv {
+  border: 1px solid transparent;
+}
+.productDiv {
+  display: flex;
+  /* border: 1px solid green; */
+}
+.productDiv > img {
+  width: 15%;
+  /* border: 1px solid green; */
+}
+.shipmentMsgDiv {
+  display: flex;
+  height: 30px;
+  background-color: #f0f1f7;
+}
+.shipmentDiv > h3 {
+  font-family: "Roboto", sans-serif;
+}
+.shipmentMsgDiv > p {
+  font-size: 0.7rem;
+  text-align: center;
+  /* border: 1px solid red; */
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.shipmentMsgDiv > img {
+  width: 30px;
+  padding: 5px;
+}
+.productInfo {
+  width: 20%;
+  /* border: 1px solid green; */
+}
+.productInfo > p:nth-child(1) {
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.productInfo > p:nth-child(2) {
+  font-size: 1.2rem;
+  margin-top: -13px;
+  font-family: "Roboto", sans-serif;
+}
+.productInfo > p:nth-child(3),
+p:nth-child(4),
+p:nth-child(5) {
+  font-size: 0.7rem;
+  line-height: 3px;
+  font-family: "Roboto", sans-serif;
+}
+.quantityDiv {
+  display: flex;
+  /* border: 1px solid green; */
+  align-items: center;
+}
+
+.quantityDiv > input[type="number"] {
+  width: 20%;
+  margin-left: 5px;
+}
+
+.quantityDiv > p:nth-child(3) {
+  font-size: 0.7rem;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+
+.buttonDiv {
+  width: 25%;
+  /* border: 1px solid red; */
+  margin-left: 20px;
+}
+
+.buttonDiv > button {
+  font-size: 0.75rem;
+  padding: 5px 5px;
+  border-radius: 12px;
+  border: 1px solid #202340;
+  background-color: white;
+  margin: 15px 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.buttonDiv > button:hover {
+  background-color: #202340;
+  color: white;
+  cursor: pointer;
+}
+
+.aboveStoreTotal {
+  opacity: 50%;
+}
+
+.totalDiv {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  margin-top: -15px;
+  /* border: 1px solid red; */
+  font-family: "Roboto", sans-serif;
+}
+.totalDiv > p {
+  padding: 0px 20px;
+  /* border: 1px solid red; */
+}
+
+.totalDiv > p:nth-child(2) {
+  font-weight: bold;
+}
+.totalDiv > p:nth-child(2)::before,
+.productInfo > p:nth-child(2)::before {
+  margin: 5px;
+  content: "$";
+}
+
+#orderTotal {
+  width: 25%;
+  height: fit-content;
+  /* border: 1px solid green; */
+  margin: 0px 10px 0 25px;
+
+  background-color: #f0f1f7;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+#orderTotal > div:nth-child(3) {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  /* border: 1px solid green; */
+}
+#orderTotal > div:nth-child(3) > p {
+  font-size: 1.2rem;
+  padding: 0 20px;
+}
+#orderTotal > div:nth-child(3) > p:nth-child(2) {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0 20px 0 150px;
+}
+
+#orderTotal > p:nth-child(4) {
+  text-align: right;
+  font-size: 12px;
+  text-decoration: underline;
+}
+#orderTotal > div:nth-child(5) {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid green; */
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  padding: 8px;
+}
+
+#orderTotal > div:nth-child(5) > input {
+  width: 90px;
+  /* border: 1px solid #202340; */
+}
+#orderTotal > div:nth-child(5) > button {
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid #202340;
+  margin: 0px 8px;
+  font-size: 18px;
+  background-color: white;
+  font-weight: bold;
+}
+#orderTotal > div:nth-child(5) > button:hover {
+  background-color: #202340;
+  color: white;
+}
+
+#orderTotal > button {
+  float: right;
+  padding: 12px;
+  border-radius: 18px;
+  border: 1px solid #202340;
+  background-color: #202340e1;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#orderTotal > button:hover {
+  background-color: #202340;
+}
+
+#orderTotal > div:nth-child(8) {
+  background-color: white;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: auto;
+  /* margin-top: 70px; */
+  justify-content: flex-end;
+}
+#orderTotal > div:nth-child(8) > img {
+  width: 30%;
+  margin: 10px;
+  cursor: pointer;
+}
+#orderTotal > p:nth-child(7) {
+  width: 100px;
+  margin-top: 90px;
+  /* border:1px solid #202340; */
+  font-size: 11px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  background-color: white;
+  padding: 3px;
+  font-weight: bold;
+}

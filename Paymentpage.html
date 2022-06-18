@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="payment.css">
+    
+  </head>
+  <body>
+    <div id="heading">
+        <p id="cancelbtn"> 
+        &#8592 Cancel
+    </p>
+</div>
+    <div id="formcontainer">
+        <form action="">
+            <div id="paymentimg">
+                <p>Payment</p>
+                <div>
+                    <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/ppcredit_MD_BNPOT_1x.png" >
+                    <img src="https://src.mastercard.com/assets/img/btn/src_chk_btn_147x034px.svg?locale=en_us&paymentmethod=master,visa,discover,amex&checkoutid=a4a6w4v6h7cg0iaijxn0j1iaoelnus5936" alt="">
+                    
+                </div>
+            </div>
+        <div>
+          <input type="text" id="name" placeholder="Name on Card *" required />
+          <input type="text" id="cardnumber" placeholder="Card Number *" required/>
+        
+        </div>
+        <div id="exse">
+            <input type="tel" id="expirydate" placeholder="Expiry Date *" pattern="[0-9]{2}/[0-9]{2}" required />
+            <input type="tel" id="securitycode" placeholder="Security Code *" pattern="[0-9]{3}" required/>
+      </div>
+      <input type="submit"> 
+    </form>
+    </div>
+    <p>Powered by <b>Coverge</b> </p>
+  </body>
+</html>
+<script src="payment.js"></script>
