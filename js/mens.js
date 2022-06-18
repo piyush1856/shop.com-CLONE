@@ -184,6 +184,7 @@ let database =[
 
 localStorage.setItem("product", JSON.stringify(database));
 let data = JSON.parse(localStorage.getItem("product"));
+let single_product =  [];
 
 let productmore = JSON.parse(localStorage.getItem("productmore")) || [];
 
@@ -214,12 +215,11 @@ function displayProduct(index){
 
         let button = document.createElement("button");
         button.innerText="Choose Options";
+        button.addEventListener('click',function(){
+            isproduct(elem)
+        });
 
         div.append(img,name,sold,price,shipping,button);
-
-        div.addEventListener("click",function(){
-            product(elem);
-        });
 
         document.querySelector("#prodect").append(div);
     });
@@ -456,6 +456,16 @@ document.querySelector("form").addEventListener("submit", function(event) {
 });
 
 //go to product page
-function product(elem){
-    console.log(elem);
+function isproduct(elem){
+    let obj ={
+        image : elem.image,
+        name :elem.name,
+        brandname: elem.brandname,
+        price: elem.price,
+    }
+single_product.push(obj);
+    
+console.log(single_product);
+localStorage.setItem('single_product',JSON.stringify(single_product));
+// window.location.href='./product.html';
 }
