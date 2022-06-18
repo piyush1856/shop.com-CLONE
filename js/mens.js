@@ -467,5 +467,5 @@ single_product.push(obj);
     
 console.log(single_product);
 localStorage.setItem('single_product',JSON.stringify(single_product));
-// window.location.href='./product.html';
+window.location.href='./product.html';
 }

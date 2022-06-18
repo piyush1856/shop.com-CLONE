@@ -10,12 +10,12 @@ container.setAttribute('id','container');
 single_product.forEach(function(elem){
     
     let inner_container = document.createElement('div')
-    inner_container.setAttribute('class','inner_container');
+    inner_container.setAttribute('id','inner_container');
     let div1 = document.createElement('div')
     let img = document.createElement('img')
     img.setAttribute('src',elem.image)
     div1.append(img)
-console.log(addedcart)
+    console.log(addedcart)
     let div2 = document.createElement('div')
     let h2 = document.createElement('h2')
     h2.innerText = elem.name

@@ -1,0 +1,207 @@
+#header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+#navFirst{
+    height: 30px;
+    padding-top: 8px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    background-color: black;
+}
+#spanfirst{
+    margin-left:20px;
+    text-decoration: underline;
+}
+#spanfirst:hover{
+    text-decoration: none;
+}
+#navSecond{
+    height: 130px;
+    position: sticky;
+    background-color:aliceblue;
+}
+#navSecondFirst{
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+#logoimg{
+    height: 45px;
+    width: 175px;
+    margin-left: 40px;
+}
+#rightimg{
+    height: 55px;
+    width: 325px;
+    margin-right: 25px;
+    /* border: 1px solid black; */
+}
+#searchbar{
+    height: 45px;
+    width: 40%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#logoimg,#rightimg,#searchbar:hover{
+    cursor: pointer;
+}
+#navSecondSecond{
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+#navbarFirst>a{
+    color: black; 
+    text-decoration: none; 
+    padding-left: 5px;
+}
+#navbarFirst>a:hover{
+    color:rgb(28, 179, 179);
+}
+#navbarFirst{
+    margin-left: 30px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+#navbarFirst:hover{
+    color: rgb(28, 179, 179);
+}
+.navbarpara{
+    font-size: 18px;
+     margin: 5px;
+    }
+#navbarSecond>a{
+    color: black;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+#navbarSecond>a:hover{
+    color: rgb(28, 179, 179);
+}
+#navbarThird{
+    height: 63px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+#navbarThird>div{
+    margin: 0px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbarThird>div>a{
+    color: black; 
+    text-decoration: none; 
+    padding-left: 5px;
+}
+#navbarThird>div>a:hover{
+    color:rgb(28, 179, 179);
+}
+.navbarThirdFirst:hover{
+    color: rgb(28, 179, 179);
+}
+.material-icons:hover{
+    cursor: pointer;
+}
+#navbarSection1{
+    position: relative;
+    display: flex;
+    margin-left: 870px;
+    flex-direction: column;
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+#menuSection{
+    position: absolute;
+    visibility: hidden;
+    width: 120px;
+    margin-left: 4px;
+    margin-top: 4px;
+    padding: 15px;
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    border: 1px solid rgb(169, 163, 163);
+    border-top: none;
+}
+#menuSection>a{
+    text-decoration: none; 
+    margin: auto; 
+    margin-top: 5px; 
+    color: black;
+}
+#menuSection>a:hover{
+    text-decoration: underline; 
+    color: rgb(97, 134, 134);
+}
+.carth2,.carth4{
+    margin: 10px;
+}
+.span1{
+    font-weight: lighter;
+}
+.btn1{
+    width: 50%;
+    padding: 10px; 
+    margin-top: 30px;
+    margin-left: 20%;
+    font-weight: bold; 
+    background-color: white; 
+    border-radius: 20px;
+}
+.btn2{
+    width: 50%;
+    padding: 10px; 
+    margin-top: 70%;
+    margin-left: 20%;
+    font-weight: bold; 
+    background-color: white; 
+    border-radius: 20px;
+}
+.btn1,.btn2:hover{
+    color: white; 
+    background-color: black;
+}
+
+
+/* 
+@media all and (min-width: 768px) and (max-width: 1024px){
+   #logoimg, #rightimg{ display: none; }
+   #menu, #navbarSecond, .navbarThirdFirst>a{display: none;}
+    #navSecond{ height: 70px; }
+    #navSecondFirst{ position: absolute; justify-content: space-evenly; }
+    #searchbar{margin-left: 100px; width: 450px;}
+    #navSecondSecond{ position: relative;}
+}
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    #logoimg, #rightimg{ display: none; }
+    #menu, #navbarSecond, .navbarThirdFirst>a{display: none;}
+     #navSecond{ height: 70px; }
+     #navSecondFirst{ position: absolute; justify-content: space-evenly; }
+     #searchbar{margin-left: 100px; width: 300px;}
+     #navSecondSecond{ position: relative;}
+ }
+ 
+ */
+
+
+
+
+
+
+
+
+
