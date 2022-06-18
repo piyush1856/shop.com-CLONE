@@ -1,7 +1,9 @@
 #header{
     position: fixed;
-    width: 100%;
+    width: 105%;
     top: 0px;
+    margin-left: -40px;
+    margin-right: 100px;
 }
 #navFirst{
     height: 30px;

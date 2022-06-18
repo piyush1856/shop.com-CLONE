@@ -186,8 +186,6 @@ localStorage.setItem("product", JSON.stringify(database));
 let data = JSON.parse(localStorage.getItem("product"));
 let single_product =  [];
 
-let productmore = JSON.parse(localStorage.getItem("productmore")) || [];
-
 //display 
 displayProduct(data);
 function displayProduct(index){
