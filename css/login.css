@@ -1,0 +1,65 @@
+#container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid green; */
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+    margin-right: 30%;
+}
+#container > div{
+ width :40%;
+}
+
+form{
+    margin: 10px;
+    line-height: 30px;
+    
+}
+input, button{
+    width: 85%;
+    padding: 10px;
+    margin: 5px 0px;  
+}
+form>input:last-child{
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgba(16, 3, 96, 0.611);
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+button{
+    width: 100%;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    
+}
+@media only screen and (min-width:480px) and (max-width:720px) {
+    #container{
+        width: 100%;
+    }
+    #container > div{
+        width :50%;
+    }
+} 
+@media only screen and (min-width:100px) and (max-width:479px) {
+    #container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid green;
+        margin: auto;
+
+    }
+    #container > div{
+        width :100%;
+    }
+}
